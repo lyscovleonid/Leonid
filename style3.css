@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+}
+.top{
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+nav a{
+    text-decoration: none;
+    color: red;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+nav a:hover{
+    color: blue;
+    text-decoration:underline;
+}
+h3{
+    color: rgb(0, 255, 0);
+    background-image: linear-gradient(black, red);
+}
